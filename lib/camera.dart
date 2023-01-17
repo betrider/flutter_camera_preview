@@ -136,7 +136,7 @@ class _CameraExampleHomeState extends State<CameraExampleHome> with WidgetsBindi
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         IconButton(
-          icon: Text('sdf'),
+          icon: const Icon(Icons.camera_alt_outlined),
           color: Colors.blue,
           onPressed: cameraController != null &&
                   cameraController.value.isInitialized &&
