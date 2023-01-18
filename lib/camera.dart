@@ -183,6 +183,7 @@ class _CameraExampleHomeState extends State<CameraExampleHome> with WidgetsBindi
       cameraDescription,
       ResolutionPreset.medium,
       imageFormatGroup: ImageFormatGroup.jpeg,
+      enableAudio: false
     );
 
     controller = cameraController;
